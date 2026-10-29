@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Syed Ukasha Shahid</title>
+  <meta name="description" content="Academic projects by Syed Ukasha Shahid: a Java Bus Management System and the Shineo website concept.">
+  <meta name="theme-color" content="#191919">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23FF9F0A'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial Black,Arial,sans-serif' font-weight='900' font-size='28' fill='%23191919'%3EUS%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    /* Enables motion styles only when JavaScript runs. If script.js fails
+       to load, the failsafe shows all content after 2.5 seconds. */
+    document.documentElement.classList.add("js");
+    setTimeout(function () { if (!window.__siteReady) document.documentElement.classList.add("reveal-fallback"); }, 2500);
+  </script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ Shared navigation ============ -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html" aria-label="Syed Ukasha Shahid, home page">
+        <span class="monogram" aria-hidden="true">US</span>
+        <span class="brand-name" aria-hidden="true">Syed Ukasha Shahid</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav class="site-menu" id="site-menu" aria-label="Main">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="skills.html">Skills</a></li>
+          <li><a class="nav-link" href="projects.html" aria-current="page">Projects</a></li>
+          <li><a class="nav-link" href="education.html">Education</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm nav-cv" href="assets/Syed_Ukasha_Shahid_CV.pdf" download data-cv>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          <span data-cv-label>Download CV</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page-enter" tabindex="-1">
+    <!-- ============ Page header ============ -->
+    <section class="page-hero theme-dark" aria-labelledby="page-title">
+      <div class="page-hero-deco" aria-hidden="true">
+        <span class="shape shape-ring" data-parallax="0.1"></span>
+        <span class="shape shape-square" data-parallax="-0.14"></span>
+        <span class="shape shape-dots" data-parallax="0.05"></span>
+      </div>
+      <div class="container page-hero-inner">
+        <h1 class="page-title display" id="page-title" data-reveal="depth">Projects</h1>
+        <p class="page-lede" data-reveal="fade">Two academic projects: a Java desktop application for managing bus operations, and a website concept for finding household help nearby.</p>
+        <span class="page-rule" aria-hidden="true" data-reveal="fade"></span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <!-- ============ Project 1 ============ -->
+        <article class="project" id="bus-management-system" aria-labelledby="p1-title">
+          <div class="project-visual-wrap" data-reveal="tilt-left">
+            <div class="project-stage tilt" data-tilt="6" role="img"
+                 aria-label="Illustration of the Bus Management System: a desktop window with sections for routes, tickets, passes, buses, staff and feedback, a route schedule, and a digital pass.">
+              <span class="float-ring layer-2"></span>
+              <div class="mock layer-0">
+                <div class="mock-bar">
+                  <span class="mock-dots"><i></i><i></i><i></i></span>
+                  <span class="mock-title">Bus Management System</span>
+                </div>
+                <div class="bus-body">
+                  <div class="bus-side">
+                    <span class="is-active">Routes</span>
+                    <span>Tickets</span>
+                    <span>Passes</span>
+                    <span>Buses</span>
+                    <span>Staff</span>
+                    <span>Feedback</span>
+                  </div>
+                  <div class="bus-main">
+                    <div class="bus-heading">Route schedule</div>
+                    <div class="route"><i class="is-on"></i><i></i><i class="is-on"></i><i></i><i></i></div>
+                    <div class="bus-rows">
+                      <div class="bus-row"><b></b><span class="sk"></span><span class="sk"></span><span class="sk pill-sk"></span></div>
+                      <div class="bus-row"><b></b><span class="sk"></span><span class="sk"></span><span class="sk pill-sk"></span></div>
+                      <div class="bus-row"><b></b><span class="sk"></span><span class="sk"></span><span class="sk pill-sk"></span></div>
+                      <div class="bus-row"><b></b><span class="sk"></span><span class="sk"></span><span class="sk pill-sk"></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pass-card layer-2">
+                <strong>Digital pass</strong>
+                <span class="sk" style="width: 80%"></span>
+                <span class="sk" style="width: 55%"></span>
+                <div class="barcode"></div>
+              </div>
+            </div>
+            <p class="visual-caption">Conceptual illustration of the application's main areas, drawn in CSS. Not a screenshot.</p>
+          </div>
+
+          <div class="project-body">
+            <ul class="project-meta" data-reveal="fade">
+              <li class="pill pill--dot">Academic project</li>
+              <li class="pill">Desktop application</li>
+            </ul>
+            <h2 class="project-title display" id="p1-title" data-reveal="depth">Bus Management System</h2>
+            <p class="project-desc" data-reveal="fade">An academic desktop application designed to help manage bus operations and related administrative tasks.</p>
+
+            <div class="project-block" data-reveal>
+              <h3 class="mini-heading">Key features</h3>
+              <ul class="feature-list">
+                <li>Route scheduling</li>
+                <li>Ticket booking</li>
+                <li>Digital passes</li>
+                <li>Bus allocation</li>
+                <li>Staff management</li>
+                <li>Feedback management</li>
+              </ul>
+            </div>
+
+            <div class="project-block" data-reveal>
+              <h3 class="mini-heading">Technologies</h3>
+              <ul class="tag-list">
+                <li class="tag">Java</li>
+                <li class="tag">Java Swing</li>
+                <li class="tag">Object-Oriented Programming</li>
+                <li class="tag">NetBeans</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- ============ Project 2 ============ -->
+        <article class="project project--flip" id="shineo" aria-labelledby="p2-title">
+          <div class="project-visual-wrap" data-reveal="tilt-right">
+            <div class="project-stage project-stage--dark tilt" data-tilt="6" role="img"
+                 aria-label="Illustration of the Shineo website concept: a page with a search bar for finding household help nearby and a row of service provider cards.">
+              <span class="float-square layer-2"></span>
+              <div class="mock layer-0">
+                <div class="mock-bar">
+                  <span class="mock-dots"><i></i><i></i><i></i></span>
+                  <span class="mock-url">shineo</span>
+                </div>
+                <div class="shineo">
+                  <div class="shineo-nav">
+                    <span class="shineo-logo">Shineo</span>
+                    <span class="shineo-links"><span class="sk"></span><span class="sk"></span><span class="sk"></span></span>
+                  </div>
+                  <div class="shineo-hero">
+                    <p class="shineo-h">Find household help near you</p>
+                    <div class="shineo-search">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                      <span class="sk"></span>
+                      <span class="shineo-btn">Search</span>
+                    </div>
+                  </div>
+                  <div class="shineo-cards">
+                    <div class="shineo-card"><span class="avatar"></span><span class="sk"></span><span class="sk short"></span><span class="sk pill-sk"></span></div>
+                    <div class="shineo-card"><span class="avatar"></span><span class="sk"></span><span class="sk short"></span><span class="sk pill-sk"></span></div>
+                    <div class="shineo-card"><span class="avatar"></span><span class="sk"></span><span class="sk short"></span><span class="sk pill-sk"></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="pin-card layer-2">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                Nearby
+              </div>
+            </div>
+            <p class="visual-caption">Conceptual preview of the website layout, drawn in CSS. Not a screenshot.</p>
+          </div>
+
+          <div class="project-body">
+            <ul class="project-meta" data-reveal="fade">
+              <li class="pill pill--dot">Academic project</li>
+              <li class="pill">Website concept</li>
+            </ul>
+            <h2 class="project-title display" id="p2-title" data-reveal="depth">Shineo<span class="project-subtitle">Maid Finder Website</span></h2>
+            <p class="project-desc" data-reveal="fade">A website concept designed to connect users with nearby domestic service providers and make it easier to discover household assistance.</p>
+
+            <div class="project-block" data-reveal>
+              <h3 class="mini-heading">Key features</h3>
+              <ul class="feature-list">
+                <li>Nearby provider discovery</li>
+                <li>Household help in one place</li>
+                <li>Clean, easy-to-use interface</li>
+                <li>Built with HTML5 and CSS3</li>
+              </ul>
+            </div>
+
+            <div class="project-block" data-reveal>
+              <h3 class="mini-heading">Technologies</h3>
+              <ul class="tag-list">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <div class="next-step theme-dark" data-reveal>
+          <p>Have an internship or project in mind?</p>
+          <a class="btn btn-primary" href="contact.html">Contact Me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="to-top" type="button" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m6 11 6-6 6 6"/></svg>
+  </button>
+
+  <!-- ============ Shared footer ============ -->
+  <footer class="site-footer theme-dark">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="monogram" aria-hidden="true">US</span>
+        <p><strong>Syed Ukasha Shahid</strong><span>BS Computer Science student at Qarshi University, Lahore.</span></p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="footer-heading">Pages</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <div class="footer-contact">
+          <a href="mailto:syedukashashahid@gmail.com">syedukashashahid@gmail.com</a>
+          <a href="tel:+923095236098">+92 309 5236098</a>
+          <a href="assets/Syed_Ukasha_Shahid_CV.pdf" download data-cv><span data-cv-label>Download CV</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <p>&copy; <span data-year>2026</span> Syed Ukasha Shahid</p>
+      <p>Designed and built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+</body>
+</html>
